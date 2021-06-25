@@ -1,13 +1,6 @@
-/*
-Orange color: #e67e22
-
-*/
-
-
 /* ----------------------------------------------- */
 /* BASIC SETUP */
 /* ----------------------------------------------- */
-
 * {
     margin: 0;
     padding: 0;
@@ -37,8 +30,6 @@ body {
 /* ----------------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ----------------------------------------------- */
-
-
 .row {
     max-width: 1140px;
     margin: 0 auto;
@@ -120,7 +111,6 @@ h2:after {
     color: #e67e22;
     font-size: 120%;
     margin-right: 10px;
-    
     /*secrets to align text and icons*/
     line-height: 120%;
     vertical-align: middle;
@@ -195,7 +185,6 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 /* HEADER */
 /* ----------------------------------------------- */
-
 header {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
@@ -259,7 +248,6 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
-
 /* Mobile navi */
 .mobile-nav-icon {
     float: right;
@@ -272,7 +260,6 @@ header {
     font-size: 200%;
     color: #fff;
 }
-
 
 /* Sticky navi */
 .sticky {
@@ -299,16 +286,13 @@ header {
 /* ----------------------------------------------- */
 /* FEATURES */
 /* ----------------------------------------------- */
-
 .section-features .long-copy {
     margin-bottom: 30px;
 }
 
-
 /* ----------------------------------------------- */
 /* MEALS */
 /* ----------------------------------------------- */
-
 .section-meals {
     padding: 0;
 }
@@ -349,12 +333,9 @@ header {
     transform: scale(1.03);
 }
 
-
-
 /* ----------------------------------------------- */
 /* HOW IT WORKS SECTION */
 /* ----------------------------------------------- */
-
 .section-steps {
     background-color: #f4f4f4;
 }
@@ -362,7 +343,6 @@ header {
 .steps-box {
     margin-top: 30px;
 }
-
 
 .steps-box:first-child {
     text-align: right;
@@ -412,11 +392,9 @@ header {
     margin-right: 10px;
 }
 
-
 /* ----------------------------------------------- */
 /* CITIES */
 /* ----------------------------------------------- */
-
 .box img {
     width: 100%;
     height: auto;
@@ -427,11 +405,9 @@ header {
     margin-bottom: 5px;
 }
 
-
 /* ----------------------------------------------- */
 /* TESTIMONIALS */
 /* ----------------------------------------------- */
-
 .section-testimonials {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
@@ -470,11 +446,9 @@ cite img {
     vertical-align: middle;
 }
 
-
 /* ----------------------------------------------- */
 /* SIGN UP */
 /* ----------------------------------------------- */
-
 .section-plans {
     background-color: #f4f4f4;
 }
@@ -528,11 +502,9 @@ cite img {
     padding: 5px 0;
 }
 
-
 /* ----------------------------------------------- */
 /* FORM */
 /* ----------------------------------------------- */
-
 .contact-form {
     width: 60%;
     margin: 0 auto;
@@ -562,7 +534,6 @@ input[type=checkbox] {
 /* ----------------------------------------------- */
 /* FOOTER */
 /* ----------------------------------------------- */
-
 footer {
     background-color: #333;
     padding: 50px;
@@ -635,20 +606,15 @@ footer {
     color: #517fa4;
 }
 
-
 footer p {
     color: #888;
     text-align: center;
     margin-top: 20px;
 }
 
-
-
-
 /* ----------------------------------------------- */
 /* Animations */
 /* ----------------------------------------------- */
-
 .js--wp-1,
 .js--wp-2,
 .js--wp-3
@@ -668,5 +634,3 @@ footer p {
 .js--wp-3.animated {
     opacity: 1;
 }
-
-
